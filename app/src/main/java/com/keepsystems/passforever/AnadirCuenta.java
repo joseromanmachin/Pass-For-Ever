@@ -20,6 +20,8 @@ public class AnadirCuenta extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_anadir_cuenta);
 
+        Toast.makeText(this, "Toas en añadir cuenta ", Toast.LENGTH_SHORT).show();
+
         otro = (EditText)findViewById(R.id.txtotro);
         cuentas = (Spinner)findViewById(R.id.cuentas);
 
