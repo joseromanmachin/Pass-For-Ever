@@ -1,0 +1,17 @@
+commit fed56388ce1dde4066a5c27ecdfd0f44cc5dd64a
+Author: Machin <machinhernandez.joseroman@gmail.com>
+Date:   Tue Oct 10 22:55:05 2017 -0500
+
+    Toas en añadir cuenta.java
+
+commit 03727d1f9a400c7618eff638f9a57501fa911b7c
+Author: Machin <machinhernandez.joseroman@gmail.com>
+Date:   Tue Oct 10 22:51:57 2017 -0500
+
+    Toast en menu.java
+
+commit 9c7172baa8b1c55d197d25063f1148c663e76ae8
+Author: Machin <machinhernandez.joseroman@gmail.com>
+Date:   Tue Oct 10 22:45:29 2017 -0500
+
+    Todo bien hasta aqui
