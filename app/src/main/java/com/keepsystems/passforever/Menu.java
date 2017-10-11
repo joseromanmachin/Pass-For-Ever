@@ -14,12 +14,15 @@ public class Menu extends AppCompatActivity {
     FloatingActionMenu actionMenu;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
         actionMenu = (FloatingActionMenu) findViewById(R.id.action);
         actionMenu.setClosedOnTouchOutside(true);
 
+        Toast.makeText(this, "toas en menu", Toast.LENGTH_SHORT).show();
     }
 
     public void  configuracion (View view){
