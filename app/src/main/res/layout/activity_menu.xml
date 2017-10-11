@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.keepsystems.passforever.Menu">
+
+    <LinearLayout
+        android:id="@+id/contenedorbuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="70">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/buscar" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="30"
+     />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvlogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contenedorbuscar"
+        android:layout_marginTop="15dp"
+        android:text="Cuentas Guardadas"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="menu"
+        app:menu_fab_label="@string/agregar">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/configuracion"
+            android:onClick="configuracion"
+            app:fab_label="@string/configurar" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/fab_add"
+            android:onClick="anadir"
+            app:fab_label="@string/anadir" />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

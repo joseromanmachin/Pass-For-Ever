@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Pass For Ever</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="nick">Nombre o Nick</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="repetircontrasena">Repetir Contraseña</string>
+    <string name="correorecuperacion">Correo Electronico de Recuperacion</string>
+    <string name="telefono">Numero de Telefono</string>
+    <string name="usuario">Usuario</string>
+    <string name="agregar">Agregar Cuenta</string>
+    <string name="anadir">Añadir Cuenta Nueva</string>
+    <string name="configurar">Configurar</string>
+    <string name="buscar">Buscar</string>
+    <string name="correonombreid">Correo, Nombre o Nick</string>
+    <string name="nota">Nota o Comentario</string>
+    <string name="seguridad">Activar seguridad con contraseña de inicio</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="otro">Otro</string>
+    <string name="acceder">Acceder</string>
+    <string-array name="cuentas_array">
+
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>Instagram</item>
+        <item>Snapchat</item>
+        <item>Google</item>
+        <item>Steam</item>
+        <item>Microsoft</item>
+        <item>Yahoo</item>
+        <item>Otro</item>
+    </string-array>
+    <string name="olvide">Olvide mi contraseña</string>
+</resources>
